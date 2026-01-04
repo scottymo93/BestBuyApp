@@ -41,4 +41,16 @@ public class ProductController : Controller
 
         return RedirectToAction("ViewProduct", new { id = product.ProductID });
     }
+    
+    public IActionResult InsertProduct()
+    {
+        var prod = _productRepository.AssignCategory();
+        return View(prod);
+    }
+    
+    public IActionResult InsertProductToDatabase(Product productToInsert)
+    {
+        _productRepository.InsertProduct(productToInsert);
+        return RedirectToAction("Index");
+    }
 }
