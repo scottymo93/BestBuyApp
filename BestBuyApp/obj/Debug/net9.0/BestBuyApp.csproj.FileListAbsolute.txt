@@ -110,3 +110,4 @@
 /Users/scott/Desktop/repos/BestBuyApp/BestBuyApp/obj/Debug/net9.0/BestBuyApp.pdb
 /Users/scott/Desktop/repos/BestBuyApp/BestBuyApp/obj/Debug/net9.0/BestBuyApp.genruntimeconfig.cache
 /Users/scott/Desktop/repos/BestBuyApp/BestBuyApp/obj/Debug/net9.0/ref/BestBuyApp.dll
+/Users/scott/Desktop/repos/BestBuyApp/BestBuyApp/obj/Debug/net9.0/BestBuyApp.sourcelink.json
